@@ -1,0 +1,198 @@
+.header{
+    background-image: url("../images/people.png");
+    background-size: cover;
+    opacity: 0.7;
+    background-color: grey;
+    height: 500px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+.header h1{
+    margin-top: 10%;
+}
+.header input{
+    opacity: 0.5;
+    focus:{outline:0};
+    height: 40px;
+    margin-right: 15px;
+    margin-bottom: 10%;
+}
+
+.header button{
+    background: #bc4e9c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bc4e9c, #f80759); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.header button:hover {
+background: #bc4e9c;
+}
+.two-pic h2{
+    font-weight: bold;
+}
+.span-bold-land{
+    font-weight: bold;
+}
+
+#img-peoples{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    float: right;
+}
+.logos{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 110px;
+    font-size: 15px;
+}
+.logos i{
+    color: deeppink;
+    font-size: 40px;
+}
+.center_man{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#img-man{
+    width: 350px;
+    height: 400px;
+    margin-left: 20%;
+}
+
+.right_man{
+    display: flex;
+    flex-direction: column;
+}
+
+#bold-span{
+    font-weight: bold;
+    text-align: right;
+}
+
+#span_foulder{
+    text-align: right;
+}
+
+#usually-span{
+    text-align: right;
+}
+
+.center_text_bootom{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.pricess_block{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.bold-span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.pink-price{
+    color: deeppink;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.flex-column button{
+    border: none;
+    margin-top: 5%;
+    color: #fff;
+    background: #bc4e9c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bc4e9c, #f80759); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+    height: 40px;
+    cursor: pointer;
+}
+
+.flex-column button:hover{
+    font-size: 19px;
+    background: white!important;
+    color: black;
+    border: 1px solid #bc4e9c;
+}
+
+.gradient_block{
+     background: #bc4e9c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bc4e9c, #f80759); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+    height: 350px;
+    width: 100% !important;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.grad-block{
+    padding-top: 100px;
+}
+.bold-span-white{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.gradient_block button{
+    border: none;
+    color: black;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+}
+
+#span-footer{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 8px;
+}
+.footer ul>li>i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer ul>li>i:hover{
+    color: deeppink;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: #bc4e9c;
+}
+
+/*responsive*/
+
