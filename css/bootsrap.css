@@ -16,7 +16,6 @@
 }
 .header input{
     opacity: 0.5;
-    focus:{outline:0};
     height: 40px;
     margin-right: 15px;
     margin-bottom: 10%;
@@ -93,9 +92,9 @@ background: #bc4e9c;
 }
 
 .pricess_block{
-    margin-top: 10%;
+    margin-top: 30px;
     text-align: center;
-    margin-bottom: 250px;
+    margin-bottom: 30px;
 }
 
 .bold-span{
@@ -195,4 +194,64 @@ background: #bc4e9c;
 }
 
 /*responsive*/
+
+
+@media (max-width: 480px)
+{
+    .header
+    {
+        height:600px;
+        margin-bottom: 30px;
+    }
+
+    .header>.col
+    {
+        max-height:150px;
+    }
+
+    .footer>div>ul
+    {
+        padding-left:0px;
+    }
+
+    #img-peoples
+    {
+        width: 100%;
+        margin-top:20px;
+    }
+
+    #img-man
+    {
+        margin-left:0px;
+        margin-bottom: 20px;
+    }
+
+    .logos
+    {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+
+    .logos>div
+    {
+        margin-top:20px;
+    }
+
+    .pricess_block>div
+    {
+        margin-top:20px;
+    }
+
+    .pricess_block
+    {
+      margin-top:20px;
+    }
+
+    .gradient_block>.grad-block>span
+    {
+       font-size:20px;
+        margin-bottom:10px;
+    }
+
+}
 
